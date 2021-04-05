@@ -11,7 +11,7 @@ import com.rezdy.lunch.response.RecipeItem;
 public interface LunchService {
 	
 	/**
-	 * Finds all the recipes which can be cooked for a given date
+	 * Finds all the recipes which can be prepared on a given date
 	 * @param date
 	 * @return list of recipes in sorted order
 	 */

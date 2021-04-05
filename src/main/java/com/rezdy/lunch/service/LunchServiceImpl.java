@@ -98,7 +98,7 @@ public class LunchServiceImpl implements LunchService {
 		Optional<LocalDate> minExpiredDateForRecipe1 = getMinExpiredBestBeforeDateForRecipe(date, recipe1);
 		Optional<LocalDate> minExpiredDateForRecipe2 = getMinExpiredBestBeforeDateForRecipe(date, recipe2);
 
-		// Try to cook the recipe the best before date for which is still valid (Given
+		// Try to prepare the recipe the best before date for which is still valid (Given
 		// date or future)
 		if (minExpiredDateForRecipe1.isPresent() && minExpiredDateForRecipe2.isEmpty()) {
 			return 1;
