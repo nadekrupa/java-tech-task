@@ -66,9 +66,4 @@ public class Ingredient {
 		return Objects.equals(bestBefore, other.bestBefore) && Objects.equals(title, other.title)
 				&& Objects.equals(useBy, other.useBy);
 	}
-
-	@Override
-	public String toString() {
-		return "Ingredient [title=" + title + ", bestBefore=" + bestBefore + ", useBy=" + useBy + "]";
-	}
 }

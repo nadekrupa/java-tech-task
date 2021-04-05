@@ -22,9 +22,4 @@ public class RecipeItem {
 	public Set<IngredientItem> getIngredients() {
 		return ingredients;
 	}
-
-	@Override
-	public String toString() {
-		return "RecipeItem [title=" + title + ", ingredients=" + ingredients + "]";
-	}
 }

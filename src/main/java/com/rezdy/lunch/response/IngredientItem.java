@@ -29,9 +29,4 @@ public class IngredientItem {
 	public LocalDate getUseBy() {
 		return useBy;
 	}
-
-	@Override
-	public String toString() {
-		return "IngredientItem [title=" + title + ", bestBefore=" + bestBefore + ", useBy=" + useBy + "]";
-	}
 }
