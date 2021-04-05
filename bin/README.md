@@ -34,15 +34,3 @@ The service provides an endpoint that will determine, from a set of recipes, wha
     ```
     
 3. Run Springboot LunchApplication
-
-### Using App ###
-- Import the postman collection in to the postman application
-- Execute the "Recipe - by date" request to find the recipes by date. 
-- Execute the "Recipe - by title" request to find the recipes by given title. 
-- Execute the "Recipe - by excluding ingredients" request to find the recipes by excluding given ingredients. 
-- Please note that this API does need any authentication
-
-### Assumptions ###
-- API to 'find the recipe by title' is POST as the title can have white space and special characters resulting into encoding issues
-- API to 'find the recipe by excluding ingredients' is POST so that multiple ingredients can be provided in array
-- A recipe will be filtered from response if it does not have any ingredients
