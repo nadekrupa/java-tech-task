@@ -1,7 +1,16 @@
-package com.rezdy.lunch.service;
+package com.rezdy.lunch.response;
 
+/**
+ * 
+ * This is response object for update password operation.
+ *
+ */
 public class ErrorResponse {
-    private String errorMessage;
+	
+	/**
+	 * The error message in case the update password operation fails
+	 */
+	private String errorMessage;
 
     public String getErrorMessage() {
         return errorMessage;
